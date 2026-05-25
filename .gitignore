@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Data
+data/raw/
+data/labeled/
+data/preprocessed/
+data/windowed/
+data/peaks/
+data/interval/
+data/features/
+
+# Large files
+*.pkl
+*.npz
+*.csv.gz
+
+# Outputs
+outputs/*/predictions.csv
+outputs/*/metadata.npz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
